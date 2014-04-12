@@ -10,14 +10,28 @@
 
 @implementation singleton
 
+static singleton* instance = nil;
+
 + (id)singleton {
-    static singleton* singleton = nil;
     
-    if (singleton == nil) {
-        singleton = [[self alloc] init];
+    
+    if (instance == nil) {
+        instance = [[self alloc] init];
     }
     
-    return singleton;
+    return instance;
+}
+
+
++(id)alloc{
+    if (instance == nil) {
+        instance = [super alloc];
+        NSLog(@"产生了第一个实例");
+    }
+    else{
+        NSLog(@"你已经有了一个实例");
+    }
+    return instance;
 }
 
 @end
