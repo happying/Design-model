@@ -570,6 +570,7 @@
 				54467AE118EFE00F0088DE59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54467AE218EFE00F0088DE59 /* Build configuration list for PBXNativeTarget "Design modelTests" */ = {
 			isa = XCConfigurationList;
@@ -578,6 +579,7 @@
 				54467AE418EFE00F0088DE59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

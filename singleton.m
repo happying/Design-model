@@ -23,9 +23,9 @@ static singleton* instance = nil;
 }
 
 
-+(id)alloc{
++(id)allocWithZone:(struct _NSZone *)zone{
     if (instance == nil) {
-        instance = [super alloc];
+        instance = [super allocWithZone:nil];
         NSLog(@"产生了第一个实例");
     }
     else{
