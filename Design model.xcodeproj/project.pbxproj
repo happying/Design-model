@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		540267B918FA85FE00DEADB6 /* Target.m in Sources */ = {isa = PBXBuildFile; fileRef = 540267B818FA85FE00DEADB6 /* Target.m */; };
+		540267BC18FA864E00DEADB6 /* Adaptee.m in Sources */ = {isa = PBXBuildFile; fileRef = 540267BB18FA864E00DEADB6 /* Adaptee.m */; };
 		54467AB718EFE00F0088DE59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54467AB618EFE00F0088DE59 /* Foundation.framework */; };
 		54467AB918EFE00F0088DE59 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54467AB818EFE00F0088DE59 /* CoreGraphics.framework */; };
 		54467ABB18EFE00F0088DE59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54467ABA18EFE00F0088DE59 /* UIKit.framework */; };
@@ -35,6 +37,7 @@
 		54467B2818F04B040088DE59 /* ConcreteObservers.m in Sources */ = {isa = PBXBuildFile; fileRef = 54467B2718F04B040088DE59 /* ConcreteObservers.m */; };
 		54467B2B18F04BCE0088DE59 /* Subjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 54467B2A18F04BCE0088DE59 /* Subjects.m */; };
 		54467B3118F04C320088DE59 /* ConcreteSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 54467B3018F04C320088DE59 /* ConcreteSubject.m */; };
+		54E5CA6418FACEC600A8CEDE /* Adapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E5CA6318FACEC600A8CEDE /* Adapter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		540267B718FA85FE00DEADB6 /* Target.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Target.h; path = "adapter model/Target.h"; sourceTree = "<group>"; };
+		540267B818FA85FE00DEADB6 /* Target.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Target.m; path = "adapter model/Target.m"; sourceTree = "<group>"; };
+		540267BA18FA864E00DEADB6 /* Adaptee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Adaptee.h; path = "adapter model/Adaptee.h"; sourceTree = "<group>"; };
+		540267BB18FA864E00DEADB6 /* Adaptee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Adaptee.m; path = "adapter model/Adaptee.m"; sourceTree = "<group>"; };
 		54467AB318EFE00F0088DE59 /* Design model.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design model.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54467AB618EFE00F0088DE59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		54467AB818EFE00F0088DE59 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -96,6 +103,8 @@
 		54467B2A18F04BCE0088DE59 /* Subjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subjects.m; sourceTree = "<group>"; };
 		54467B2F18F04C320088DE59 /* ConcreteSubject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConcreteSubject.h; path = "Observer model/ConcreteSubject.h"; sourceTree = "<group>"; };
 		54467B3018F04C320088DE59 /* ConcreteSubject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConcreteSubject.m; path = "Observer model/ConcreteSubject.m"; sourceTree = "<group>"; };
+		54E5CA6218FACEC600A8CEDE /* Adapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Adapter.h; path = "adapter model/Adapter.h"; sourceTree = "<group>"; };
+		54E5CA6318FACEC600A8CEDE /* Adapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Adapter.m; path = "adapter model/Adapter.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,9 +131,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		540267B618FA85BD00DEADB6 /* Adapter model */ = {
+			isa = PBXGroup;
+			children = (
+				540267B718FA85FE00DEADB6 /* Target.h */,
+				540267B818FA85FE00DEADB6 /* Target.m */,
+				540267BA18FA864E00DEADB6 /* Adaptee.h */,
+				540267BB18FA864E00DEADB6 /* Adaptee.m */,
+				54E5CA6218FACEC600A8CEDE /* Adapter.h */,
+				54E5CA6318FACEC600A8CEDE /* Adapter.m */,
+			);
+			name = "Adapter model";
+			sourceTree = "<group>";
+		};
 		54467AAA18EFE00F0088DE59 = {
 			isa = PBXGroup;
 			children = (
+				540267B618FA85BD00DEADB6 /* Adapter model */,
 				54467B2218F049EB0088DE59 /* Observer */,
 				54467B0B18F0435C0088DE59 /* simple factory */,
 				54467AF218F034D30088DE59 /* singleton model */,
@@ -356,6 +379,7 @@
 				54467B2B18F04BCE0088DE59 /* Subjects.m in Sources */,
 				54467AE718F02D520088DE59 /* singleton.m in Sources */,
 				54467AC718EFE00F0088DE59 /* Floating_point_number_into_a_fractionAppDelegate.m in Sources */,
+				540267BC18FA864E00DEADB6 /* Adaptee.m in Sources */,
 				54467B0E18F043CE0088DE59 /* Operation.m in Sources */,
 				54467B2018F044DA0088DE59 /* OperationFactory.m in Sources */,
 				54467B0418F0395E0088DE59 /* CashNormal.m in Sources */,
@@ -366,8 +390,10 @@
 				54467B1718F044980088DE59 /* OperationMul.m in Sources */,
 				54467AC318EFE00F0088DE59 /* main.m in Sources */,
 				54467B2818F04B040088DE59 /* ConcreteObservers.m in Sources */,
+				540267B918FA85FE00DEADB6 /* Target.m in Sources */,
 				54467B1A18F044AF0088DE59 /* OperationDiv.m in Sources */,
 				54467B3118F04C320088DE59 /* ConcreteSubject.m in Sources */,
+				54E5CA6418FACEC600A8CEDE /* Adapter.m in Sources */,
 				54467B1118F0442B0088DE59 /* OperationAdd.m in Sources */,
 				54467B1418F0444A0088DE59 /* OperationSub.m in Sources */,
 			);

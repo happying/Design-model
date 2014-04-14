@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A8026326-3F57-49A6-8B33-5BCCBD59CF26</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Design model</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>49939DAE-450A-4381-8535-5A53CC30D204</key>
+		<string>https://github.com/happying/Design-model.git</string>
+		<key>9E95CB10-406A-4F42-8BBF-3E39F7333234</key>
+		<string>https://github.com/happying/Design-model.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Design model.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>49939DAE-450A-4381-8535-5A53CC30D204</key>
+		<string>../..</string>
+		<key>9E95CB10-406A-4F42-8BBF-3E39F7333234</key>
+		<string>../../Design model</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/happying/Design-model.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>49939DAE-450A-4381-8535-5A53CC30D204</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>49939DAE-450A-4381-8535-5A53CC30D204</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Design model</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9E95CB10-406A-4F42-8BBF-3E39F7333234</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Design model</string>
+		</dict>
+	</array>
+</dict>
+</plist>
